@@ -1,0 +1,18 @@
+{
+  "name": "chrome_dino",
+  "version": "1.0.0",
+  "description": "electron app with chrome dino runner",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --out= --platform=win32 --arch=x64 --icon=favicon.ico --overwrite"
+  },
+  "author": "Oliver Kovacs",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "electron-packager": "^13.1.1"
+  }
+}
