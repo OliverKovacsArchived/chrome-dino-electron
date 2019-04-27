@@ -1,11 +1,13 @@
 
 ##########################
-##  chrome_dino_game    ##
+##  chrome_dino         ##
 ##  Oliver Kovacs 2019  ##
 ##  CC-BY-NC-SA-4.0     ##
 ##########################
 
 The offline Chrome Dino Game as a .exe.
+This is the Electron source.
+You can compile it if you want by running npm run-script build in the dir (windows only).
 Made with Electron and Node.js.
 Compiled with electron-packager (npm).
 
